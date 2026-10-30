@@ -1,0 +1,27 @@
+@"
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# MLflow tracking files
+mlruns/
+mlflow.db
+
+# Environment variables
+.env
+"@ | Set-Content .gitignore
+Set-Content -Path ".gitignore" -Value @(
+"venv/",
+"__pycache__/",
+"*.py[cod]",
+"*.log",
+"mlruns/",
+"mlflow.db",
+".env"
+)
