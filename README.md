@@ -1,44 +1,37 @@
-# Real Estate Investment Advisor
+# 🏡 Real Estate Investment Advisor
+### Predicting Property Prices & Exploring Future Investment Value Using Machine Learning
 
-## Project Overview
-The Real Estate Investment Advisor is a Machine Learning project that analyzes property information and estimates property prices. It also provides a hypothetical five-year future value scenario based on a user-selected annual growth rate.
+## 📌 Project Overview
 
-## Objectives
-- Analyze real estate property data.
-- Predict property prices using Machine Learning.
-- Explore property features and their relationship with price.
-- Display predictions through a Streamlit web application.
-- Track model experiments and evaluation metrics using MLflow.
+The **Real Estate Investment Advisor** is a Machine Learning project designed to analyze property information and estimate property prices using property-related features.
 
-## Technologies Used
-- Python
-- Pandas and NumPy
-- Scikit-learn
-- Matplotlib
-- Streamlit
-- MLflow
-- Joblib
+The application provides:
+- Property price estimation using an ExtraTrees Regression model.
+- Interactive property input through a Streamlit web application.
+- A hypothetical five-year future value scenario based on a user-selected annual growth rate.
+- Model performance evaluation and comparison against a mean prediction baseline.
+- MLflow experiment tracking for recording model parameters and evaluation metrics.
 
-## Machine Learning Model
-- Algorithm: ExtraTreesRegressor
-- Task: Property price prediction
-- Evaluation metrics: MAE, RMSE, and R²
-- Baseline comparison: Mean prediction baseline
+> **Important:** The current model has not demonstrated reliable predictive performance. This project focuses on the complete machine learning workflow, evaluation, visualization, and experiment tracking.
 
-## Model Limitations
-The current model did not outperform the mean baseline on the evaluation dataset. Its predictions should therefore be treated as experimental, not reliable property valuations.
+## 🎯 Project Objectives
 
-The five-year future value is a hypothetical scenario based on an assumed annual growth rate, not a market forecast.
+- Analyze and understand real estate property data.
+- Perform data cleaning and exploratory data analysis (EDA).
+- Prepare features for machine learning.
+- Develop a regression model for property price estimation.
+- Evaluate model performance using MAE, RMSE, and R².
+- Build an interactive Streamlit application.
+- Track experiments using MLflow.
+- Communicate model limitations transparently.
 
-## Application
-Run the application using:
+## 🛠️ Technologies Used
 
-```bash
-streamlit run app.py
-```
-
-## Experiment Tracking
-MLflow is used to record model parameters and evaluation metrics.
-
-## Disclaimer
-This project is for educational purposes only. It does not provide professional real estate investment or financial advice.
+| Technology | Purpose |
+|---|---|
+| Python | Programming language |
+| Pandas | Data manipulation |
+| NumPy | Numerical operations |
+| Scikit-learn | Machine learning and preprocessing |
+| Matplotlib | Data visualization |
+|
